@@ -1,11 +1,10 @@
-// AboutUs.js (similar structure to Home.js)
 import React from 'react';
 
 const Contact = () => {
   return (
     <div>
-      <h1>About Us</h1>
-      <p>This is the About us page content.</p>
+      <h1>Contact Us</h1>
+      <p>This is the contact page content.</p>
     </div>
   );
 };

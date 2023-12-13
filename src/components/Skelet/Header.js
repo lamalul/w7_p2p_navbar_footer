@@ -1,13 +1,11 @@
-// Header.js
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../styles.css'; // Import the styling file
 
 const Header = () => {
   return (
     <header>
       <div>
-        <Link to="/">
+        <Link className="App-link " to="/">
           <img src="/logo192.png" alt="Logo" />
         </Link>
       </div>
